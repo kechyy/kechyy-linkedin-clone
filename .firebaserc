@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "kechyy-linkedin-clone"
+  },
+  "targets": {
+    "linkedin-clone-8c525": {
+      "hosting": {
+        "kechyy-linkedin-clone": [
+          "linkedin-clone-8c525"
+        ],
+        "linkedin-clone-8c525": [
+          "kechyy-linkedin-clone"
+        ]
+      }
+    }
+  }
+}

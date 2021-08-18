@@ -1,0 +1,25 @@
+.comment {
+  display: flex;
+  margin-top: 25px;
+}
+
+.comment__info {
+  margin-left: 5px;
+  background-color: #eee;
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.comment__info > h2 {
+  font-size: 12px;
+}
+
+.comment__info > h2 > small {
+  color: #777;
+}
+
+.comment__info p {
+  padding-top: 20px;
+  font-size: 14px;
+}

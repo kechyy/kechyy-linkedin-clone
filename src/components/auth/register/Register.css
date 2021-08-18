@@ -1,0 +1,142 @@
+.register {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__container {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.register__container > img {
+  object-fit: contain;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.register__container > h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center !important;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 345px !important;
+  height: 470px;
+  background-color: white;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.register__form > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__formGroup > input {
+  height: 28px !important;
+  width: 345px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #999;
+}
+
+.register__form > p {
+  text-align: center;
+  font-size: 12px;
+}
+.register__form > p > span {
+  text-align: center;
+  font-size: 12px;
+  color: #0a66c2 !important;
+  font-weight: bold;
+}
+
+.register__join {
+  width: 100% !important;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #0a66c2;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: inherit;
+  min-height: 48px;
+  line-height: 40px;
+  overflow: hidden;
+  outline-width: 2px;
+}
+
+.register__option {
+  display: inline-flex;
+  align-items: center;
+}
+.register__option > span:first-child,
+.register__option > span:last-child {
+  display: flex;
+  width: 140px !important;
+  height: 1px !important;
+  background: lightgray;
+  margin: 30px;
+  margin-bottom: 15px;
+}
+
+.register__joinWithGoogle {
+  background-color: white;
+  color: #0a66c2;
+  border: 1px solid #0a66c2;
+}
+
+.register__joinWithGoogle > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register__joinWithGoogle > div > img {
+  width: 22xpx !important;
+  height: 22px !important;
+  margin-right: 20px;
+}
+
+.register__joinWithGoogle > div > p {
+  color: #0a66c2;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.register__member {
+  font-size: 16px !important;
+  padding-top: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+a {
+  text-decoration: none !important;
+}
+.register__login {
+  color: #0177b7;
+  cursor: pointer;
+}

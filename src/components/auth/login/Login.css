@@ -1,0 +1,159 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: auto;
+}
+
+.login__container > form {
+  width: 352px;
+  -webkit-box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  padding: 24px 32px 32px;
+  border-radius: 8px;
+  margin: 0px auto;
+  background: #fff;
+}
+
+.login__container > form h2 {
+  text-align: left !important;
+}
+
+.login__container > form p {
+  font-size: 14px;
+  margin-top: 2px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.login__container > form > input {
+  width: 100%;
+  height: 48px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #444;
+}
+
+.login__container > form > input[placeholder] {
+  font-size: 18px !important;
+  color: #000 !important;
+}
+
+.login__container > form > button {
+  width: 100% !important;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #0a66c2;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: inherit;
+  height: 48px;
+  line-height: 40px;
+  overflow: hidden;
+  outline-width: 2px;
+}
+
+.login__password {
+  color: #0a66c2;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin-top: -8px !important;
+}
+
+.login__register {
+  color: #0177b7;
+  cursor: pointer;
+}
+
+.login__container > p {
+  margin-top: 50px;
+  font-size: 17px !important;
+}
+
+.login__join {
+  width: 100% !important;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #0a66c2;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: inherit;
+  min-height: 48px;
+  line-height: 40px;
+  overflow: hidden;
+  outline-width: 2px;
+}
+
+.login__joinWithGoogle {
+  background-color: white !important;
+  color: #0a66c2 !important;
+  border: 1px solid #0a66c2 !important;
+}
+
+.login__joinWithGoogle > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__joinWithGoogle > div > img {
+  width: 22xpx !important;
+  height: 22px !important;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.login__joinWithGoogle > div > p {
+  color: #0a66c2;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.login__option {
+  display: inline-flex;
+  align-items: center;
+}
+.login__option > span:first-child,
+.login__option > span:last-child {
+  display: flex;
+  justify-content: center;
+  width: 120px !important;
+  height: 1px !important;
+  background: lightgray;
+  margin: 30px;
+  margin-bottom: 15px;
+}
+
+.emailRef::after {
+  content: 'Enter email address';
+}

@@ -1,0 +1,86 @@
+.MuiDialogContent-root {
+  text-align: center !important;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.MuiDialogActions-root {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-end !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.MuiDialogActions-root button {
+  margin-bottom: 0px !important;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.MuiDialogActions-root button:first-child {
+  margin-bottom: 100px !important;
+  border: 1px solid #0a66c2 !important;
+  color: #0a66c2;
+}
+
+.MuiDialogActions-root button:last-child {
+  background-color: lightgray !important;
+  color: gray;
+}
+
+.postInputIcons {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+.postInputIcons > * {
+  margin-right: 18px !important;
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.post__profile {
+  display: flex;
+}
+
+.post__profile > *:last-child {
+  margin-left: 20px;
+}
+
+.post__profileInput {
+  display: flex;
+  align-items: flex-start;
+  width: 100vh;
+  height: 30vh;
+  margin-top: 40px !important;
+}
+.post__profileInput > * {
+  flex: 1;
+  border: none !important;
+  outline: none !important;
+}
+
+.post__profileInput > *[placeholder] {
+  font-size: 14px !important;
+  color: #666;
+}
+
+.MuiButton-root {
+  padding: 0px !important;
+  min-width: auto !important;
+}
+
+.MuiButton-contained {
+  box-shadow: none !important;
+  background-color: white !important;
+}
+
+.post__button {
+  padding: 5px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}

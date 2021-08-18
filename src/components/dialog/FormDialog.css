@@ -1,0 +1,51 @@
+.MuiDialogContent-root {
+  text-align: center !important;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.form-dialog__custom-file-input {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-dialog__custom-file-input::-webkit-file-upload-button {
+  visibility: hidden !important;
+}
+
+.form-dialog__custom-file-input::before {
+  content: 'Select image/video to share';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  color: #0a66c2;
+}
+
+/* .MuiDialogActions-root {
+  height: 100px !important;
+} */
+
+.MuiDialogActions-root button {
+  margin-bottom: 100px !important;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.MuiDialogActions-root button:first-child {
+  margin-bottom: 100px !important;
+  border: 1px solid #0a66c2 !important;
+  color: #0a66c2;
+}
+
+.MuiDialogActions-root button:last-child {
+  background-color: lightgray !important;
+  color: gray;
+}
